@@ -1,13 +1,18 @@
 # drawing
 
-ClojureBridge capstone app using Quil to draw.
+ClojureBridge capstone app using Quil and Nightcode to draw.
+
+## Install
+Clone the project at `https://github.com/clojurebridge-boston/drawing.git` using [git clone instructions](https://github.com/clojurebridge-boston/track2-functional/blob/master/Nightcode.md#new-project-cloned-from-git)
 
 ## Usage
 
-LightTable - open `lines.clj` and press `Ctrl+Shift+Enter` to evaluate
+Nightcode - open `lines.clj`, click `Run with REPL` and then click `Reload` to evaluate
 the file.
 
 REPL - run `(require 'drawing.lines)`.
+
+You should see a window that pops up. You should see lines being drawn in the window as you move the mouse over the window.
 
 ## Curriculum
 
