@@ -7,12 +7,12 @@ Clone the project at `https://github.com/clojurebridge-boston/drawing.git` using
 
 ## Usage
 
-Nightcode - open `lines.clj`, click `Run with REPL` and then click `Reload` to evaluate
+Nightcode - open `core.clj`, click `Run with REPL` and then click `Reload` to evaluate
 the file.
 
-REPL - run `(require 'drawing.lines)`.
+REPL - run `(require 'drawing.core)`.
 
-You should see a window that pops up. You should see lines being drawn in the window as you move the mouse over the window.
+You should see a window that pops up with a revolving circle in it. You are now in the inner circle of clojure animators!
 
 ## Curriculum
 
