@@ -29,7 +29,7 @@ Then, she googled and found a StackOverflow question,
 [Load/display image in clojure with quil](http://stackoverflow.com/questions/18714941/load-display-image-in-clojure-with-quil), which
 looked like helpful.
 She also went to ClojureBridge drawing resources section,
-[Quil and Processing Resources](https://github.com/ClojureBridge/drawing#quil-and-processing-resources).
+[Quil and Processing Resources](https://github.com/clojurebridge-boston/drawing#quil-and-processing-resources).
 Browsing at web sites listed there for a while, she found an interesting Xmas tree
 example,
 [xmas-tree.clj](https://github.com/quephird/fun-with-quil/blob/master/src/fun_with_quil/animations/xmas-tree.clj),
@@ -40,7 +40,7 @@ OK, for now, she got enough information to accomplish step 1.
 
 At the ClojureBridge workshop, Clara went though the Quil app
 tutorial,
-[Making Your First Program with Quil](https://github.com/ClojureBridge/drawing/blob/master/curriculum/first-program.md),
+[Making Your First Program with Quil](first-program.md),
 so she already had the `drawing` Clojure project.  She decided to use
 the same project for her own app.
 
@@ -104,7 +104,7 @@ Now, `practice.clj` looks like this:
 ### step 1-4: Download and put snowflake and background images
 
 Looking at the Quil API and the StackOverflow question, Clara learned
-that where to put her image files was important. She created a new
+that where to put her image files was important. In File Explorer, she created a new
 directory, `images`, under the top `drawing` directory, and
 [put two images there](https://github.com/ClojureBridge/drawing/tree/master/images).
 

@@ -1,13 +1,18 @@
 # drawing
 
-ClojureBridge capstone app using Quil to draw.
+ClojureBridge capstone app using Quil and Nightcode to draw.
+
+## Install
+Clone the project at `https://github.com/clojurebridge-boston/drawing.git` using [git clone instructions](https://github.com/clojurebridge-boston/track2-functional/blob/master/Nightcode.md#new-project-cloned-from-git)
 
 ## Usage
 
-LightTable - open `lines.clj` and press `Ctrl+Shift+Enter` to evaluate
+Nightcode - open `core.clj`, click `Run with REPL` and then click `Reload` to evaluate
 the file.
 
-REPL - run `(require 'drawing.lines)`.
+REPL - run `(require 'drawing.core)`.
+
+You should see a window that pops up with a revolving circle in it. You are now in the inner circle of clojure animators!
 
 ## Curriculum
 
