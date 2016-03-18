@@ -9,19 +9,14 @@ to organize your project with *namespaces*. You'll also learn how to
 specify your project's *dependencies*. Finally, you'll learn how to
 *build* your project to create the standalone application.
 
-## Create a Project
+## Project Structure
 
-Up until now you've been experimenting in a REPL. Unfortunately, all
-the work you do in a REPL is lost when you close the REPL. You can
-think of a project as a permanent home for your code. You'll be using
-a tool called "Leiningen" to help you create and manage your
-project. To create a new project, run this command:
+You can think of a project as a permanent home for your code. Clojure applications
+commonly use a tool called "Leiningen" to help create and manage projects. Leiningen is
+bundled with Nightcode. The buttons on the bottom right panel `run`, `Build`, `Test`, etc.
+are leiningen commands. More information about Leiningnen can be found at [Leiningnen](http://leiningen.org/)
 
-```clojure
-lein new quil drawing
-```
-
-This should create a directory structure that looks like this:
+Your cloned project should have a directory structure that looks like this:
 
 ```
 drawing
@@ -48,18 +43,13 @@ skeleton:
 This uses a Clojure library, [Quil](https://github.com/quil/quil), that creates drawings called
 sketches.
 
-Now let's go ahead and actually run the Quil sketch. Open up Light
-Table and do File - Open Folder - find the drawing folder and click
-Upload
+Now let's go ahead and actually run the Quil sketch. Open the file `src/drawing/core.clj` in Nightcode. Click `Run with REPL` and `Reload`. You should see a revolving circle and have now entered the inner circle of clojure animations!
 
-Press `Ctrl + Shift + Enter` (or `Cmd + Shift + Enter`) to evaluate
-the file.
+Click the `Stop` button to close the Quil sketch window.
 
 ## Modify Project
 
-Let's create another Quil sketch. In Light Table, do File - New
-File. Do File - Save File As - Enter lines.clj as the name - and
-select the directory - drawing/src/drawing - then click Save.
+Let's create another Quil sketch. In Nightcode project panel to the left, click on src/drawing folder. In the right file panel click `New File` and enter the file name "lines.clj" and click `Ok`. 
 
 ## Organization
 
@@ -160,7 +150,7 @@ so that is where the action of your drawing happens. `sketch` is the
 stage itself. Let's define these functions together, and you will see
 what they do.
 
-In Light Table, in the lines.clj file, add the following after the
+In Nightcode, in the lines.clj file, add the following after the
 closing parenthesis of the ns statement from before.
 
 ```clojure
@@ -187,7 +177,7 @@ Third, we set the color of the lines we will draw with `stroke`. The
 code 255 0 0 represents red. You can [look up RGB codes](http://xona.com/colorlist/) for other
 colors if you would like to try something else.
 
-In Light Table, in the lines.clj file, add the following after the
+In Nightcode, in the lines.clj file, add the following after the
 closing parenthesis of the setup function.
 
 ```clojure
@@ -232,8 +222,9 @@ draw functions. These have to match exactly the function names we used
 above. The last line is to make our drawing app window keep on top
 of everything else.
 
-Now press `Ctrl + Shift + Enter` (or `Cmd + Shift + Enter`) to
-evaluate the file. Your drawing should appear.
+Save the file. Click `Run in REPL` and then click `Reload` to see you drawing.
+
+Click `Stop` to close the sketch window.
 
 ### Exercise: Rainbow lines
 Update your drawing so that:
